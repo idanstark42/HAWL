@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlgorithemsDatabase/AlgorithemsDatabase.iml" filepath="$PROJECT_DIR$/AlgorithemsDatabase/AlgorithemsDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeInterperter/CodeInterperter.iml" filepath="$PROJECT_DIR$/CodeInterperter/CodeInterperter.iml" />
       <module fileurl="file://$PROJECT_DIR$/HAWL.iml" filepath="$PROJECT_DIR$/HAWL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UMLConstuctor/UMLConstuctor.iml" filepath="$PROJECT_DIR$/UMLConstuctor/UMLConstuctor.iml" />
     </modules>
   </component>
 </project>
