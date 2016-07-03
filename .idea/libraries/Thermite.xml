@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Thermite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Thermite/out/artifacts/Thermite_jar/Thermite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
