@@ -1,6 +1,5 @@
 package model.classes;
 
-import model.members.Field;
 import model.members.Member;
 
 import java.util.List;
