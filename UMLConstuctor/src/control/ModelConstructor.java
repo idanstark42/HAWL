@@ -8,7 +8,7 @@ import model.profilers.Profiler;
 public class ModelConstructor {
 
     public Class constructModelClass(Profiler[] profilers){
-
+        return null;
     }
 
 }
