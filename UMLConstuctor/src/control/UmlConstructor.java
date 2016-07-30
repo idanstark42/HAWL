@@ -11,14 +11,18 @@ import java.util.List;
  */
 public class UmlConstructor {
 
-    private ClassConstructor classConstructor;
-
     public List<Class> generateUML(Profiler[] profilers){
         List<Class> uml = new ArrayList<>();
         for(List<Profiler> profilerGroup : organizeProfilers(profilers)) {
-            uml.add(classConstructor.constructClass(profilerGroup));
+            uml.add(constructClass(profilerGroup));
         }
         return uml;
+    }
+
+    private Class constructClass(List<Profiler> profilers){
+        final Class clazz = new Class();
+        profilers.forEach(profiler -> { profiler.change(clazz); });
+        return clazz;
     }
 
     private List<Profiler>[] organizeProfilers(Profiler[] profilers){
