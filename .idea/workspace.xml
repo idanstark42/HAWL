@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9d1c7d-c855-456a-83c6-a03e19b9598a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" afterPath="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelAbilityProfiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelClassInheritanceProfiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelDelerationProfiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceDeclerationProfiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceInheritanceProfiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelPropertyProfiler.java" />
     </list>
     <ignored path="HAWL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,25 +28,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UmlConstructor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java">
+      <file leaf-file-name="Profiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/Profiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66885245">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelPropertyProfiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelPropertyProfiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelInterfaceDeclerationProfiler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceDeclerationProfiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44590163">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profiler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/Profiler.java">
+      <file leaf-file-name="ModelAbilityProfiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelAbilityProfiler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelDelerationProfiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelDelerationProfiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelClassInheritanceProfiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelClassInheritanceProfiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelInterfaceInheritanceProfiler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceInheritanceProfiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,6 +155,13 @@
         <option value="$PROJECT_DIR$/UMLConstuctor/src/control/ProfilersOrgenizer.java" />
         <option value="$PROJECT_DIR$/UMLConstuctor/src/control/ClassConstructor.java" />
         <option value="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelPropertyProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelAbilityProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelDelerationProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelClassInheritanceProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelInterfaceInheritanceProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/ModelInterfaceDeclerationProfiler.java" />
+        <option value="$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceDeclerationProfiler.java" />
       </list>
     </option>
   </component>
@@ -218,7 +278,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profilers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HAWL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HAWL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UMLConstuctor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profilers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HAWL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HAWL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UMLConstuctor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -824,22 +936,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/Profiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66885245">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.752459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/Profiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelClassInheritanceProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceInheritanceProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelDelerationProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelAbilityProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelPropertyProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/model/profilers/model/ModelInterfaceDeclerationProfiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44590163">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
