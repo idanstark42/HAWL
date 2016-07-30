@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9d1c7d-c855-456a-83c6-a03e19b9598a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UMLConstuctor/src/control/classConstructor.java" afterPath="$PROJECT_DIR$/UMLConstuctor/src/control/classConstructor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" afterPath="$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java" />
     </list>
     <ignored path="HAWL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,9 +39,11 @@
         <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.66885245">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -877,9 +877,11 @@
     <entry file="file://$PROJECT_DIR$/UMLConstuctor/src/control/UmlConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66885245">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
           </folding>
         </state>
       </provider>

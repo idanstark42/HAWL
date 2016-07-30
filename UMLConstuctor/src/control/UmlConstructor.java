@@ -22,7 +22,7 @@ public class UmlConstructor {
     }
 
     private List<Profiler>[] organizeProfilers(Profiler[] profilers){
-        
+        return null;
     }
 
 }
