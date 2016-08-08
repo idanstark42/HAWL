@@ -6,9 +6,14 @@ import model.profilers.Profiler;
 /**
  * Created by Idan Stark on 30/07/16.
  */
-public class ModelInterfaceInheritanceProfiler extends Profiler {
+public class ModelInterfaceInheritanceProfiler extends ModelProfiler {
     @Override
     public void change(Class clazz) {
 
+    }
+
+    @Override
+    public String getModel() {
+        return null;
     }
 }

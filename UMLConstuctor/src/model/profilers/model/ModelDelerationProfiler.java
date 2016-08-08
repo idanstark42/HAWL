@@ -6,11 +6,15 @@ import model.profilers.Profiler;
 /**
  * Created by Idan Stark on 30/07/16.
  */
-public class ModelDelerationProfiler extends Profiler {
+public class ModelDelerationProfiler extends ModelProfiler {
 
     @Override
     public void change(Class clazz) {
 
     }
 
+    @Override
+    public String getModel() {
+        return null;
+    }
 }
