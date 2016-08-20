@@ -31,8 +31,9 @@ public class UmlConstructor {
     }
 
     private List<Profiler>[] organizeProfilers(Profiler[] profilers){
+        List<Profiler> profilerList = Arrays.asList(profilers);
         Iterable<Profiler> controlProfilers =
-                new Queries<>(Arrays.asList(profilers))
+                new Queries<>(profilerList)
                         .where(profiler -> !(profiler instanceof ModelProfiler));
 
         List<Profiler> UserAbilityProfilers = new LinkedList<>(), SystemActionProfilers = new LinkedList<>();
@@ -40,10 +41,12 @@ public class UmlConstructor {
             List compatibleControlProfilersList =
                     (controlProfiler instanceof UserAbilityProfiler) ? UserAbilityProfilers : SystemActionProfilers;
             compatibleControlProfilersList.add(controlProfiler);
-            //TODO delete item from profilers... change profilers to list?
+            profilerList.remove(controlProfiler);
         });
 
-        return null;//TODO change to return the array of profilers list: each list for a class
-                    // two for controllers and the rest for model.
+        Iterable<Iterable<Profiler>> modelProfilers = new Queries<>(profilerList).group(profiler -> 1);
+        //TODO continue here
+
+        return null;
     }
 }
