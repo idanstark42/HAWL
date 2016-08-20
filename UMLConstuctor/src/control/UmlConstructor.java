@@ -30,23 +30,23 @@ public class UmlConstructor {
         return clazz;
     }
 
-    private List<Profiler>[] organizeProfilers(Profiler[] profilers){
-        List<Profiler> profilerList = Arrays.asList(profilers);
-        Iterable<Profiler> controlProfilers =
-                new Queries<>(profilerList)
-                        .where(profiler -> !(profiler instanceof ModelProfiler));
-
-        List<Profiler> UserAbilityProfilers = new LinkedList<>(), SystemActionProfilers = new LinkedList<>();
+    private List<Profiler>[] organizeProfilers(Profiler[] profilersArray){
+        List<Profiler> profilers = Arrays.asList(profilersArray);
+        //Control profilers
+        Iterable<Profiler> controlProfilers = new Queries<>(profilers).where(profiler -> !(profiler instanceof ModelProfiler));
+        List<Profiler> userAbilityProfilers = new LinkedList<>(), systemActionProfilers = new LinkedList<>();
         controlProfilers.forEach(controlProfiler -> {
-            List compatibleControlProfilersList =
-                    (controlProfiler instanceof UserAbilityProfiler) ? UserAbilityProfilers : SystemActionProfilers;
-            compatibleControlProfilersList.add(controlProfiler);
-            profilerList.remove(controlProfiler);
+            List controlProfilersList = (controlProfiler instanceof UserAbilityProfiler) ? userAbilityProfilers : systemActionProfilers;
+            controlProfilersList.add(controlProfiler);
+            profilers.remove(controlProfiler);
         });
-
-        Iterable<Iterable<Profiler>> modelProfilers = new Queries<>(profilerList).group(profiler -> 1);
-        //TODO continue here
-
-        return null;
+        //Model profilers
+        Iterable<Iterable<Profiler>> modelProfilers = new Queries<>(profilers).group(profiler -> ((ModelProfiler)profiler).getModel());
+        //Adding all to an array and returning the result
+        ArrayList<List<Profiler>> result = new ArrayList<>();
+        result.add(userAbilityProfilers);
+        result.add(systemActionProfilers);
+        modelProfilers.forEach(modelProfilersList -> result.add((List)modelProfilersList));
+        return result.toArray(new List[result.size()]);
     }
 }
