@@ -1,6 +1,7 @@
 package control;
 
 import model.classes.Class;
+import model.members.Member;
 import model.profilers.Profiler;
 import model.profilers.control.UserAbilityProfiler;
 import model.profilers.model.ModelProfiler;
@@ -10,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.function.Supplier;
 
 /**
  * Created by Idan Stark on 30/07/16.
@@ -42,7 +44,7 @@ public class UmlConstructor {
         });
         //Model profilers
         Iterable<Iterable<Profiler>> modelProfilers = new Queries<>(profilers).group(profiler -> ((ModelProfiler)profiler).getModel());
-        //Adding all to an array and returning the result
+        //Adding it all into an array and returning the result
         ArrayList<List<Profiler>> result = new ArrayList<>();
         result.add(userAbilityProfilers);
         result.add(systemActionProfilers);

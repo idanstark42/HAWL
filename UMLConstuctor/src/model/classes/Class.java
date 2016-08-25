@@ -11,7 +11,29 @@ public class Class {
 
     private Class parent;
     private List<Interface> abilities;
+    private List<Member> members;
 
-    private List<Member> fields;
+    public List<Interface> getAbilities() {
+        return abilities;
+    }
 
+    public void setAbilities(List<Interface> abilities) {
+        this.abilities = abilities;
+    }
+
+    public List<Member> getMembers() {
+        return members;
+    }
+
+    public void setMembers(List<Member> members) {
+        this.members = members;
+    }
+
+    public Class getParent() {
+        return parent;
+    }
+
+    public void setParent(Class parent) {
+        this.parent = parent;
+    }
 }

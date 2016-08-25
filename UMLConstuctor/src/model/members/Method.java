@@ -9,4 +9,11 @@ public class Method extends Member{
 
     private Action function;
 
+    public Action getFunction() {
+        return function;
+    }
+
+    public void setFunction(Action function) {
+        this.function = function;
+    }
 }
