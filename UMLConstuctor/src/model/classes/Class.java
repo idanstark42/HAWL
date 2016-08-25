@@ -9,9 +9,27 @@ import java.util.List;
  */
 public class Class {
 
+    private int modifiers;
+    private String name;
     private Class parent;
     private List<Interface> abilities;
     private List<Member> members;
+
+    public int getModifiers() {
+        return modifiers;
+    }
+
+    public void setModifiers(int modifiers) {
+        this.modifiers = modifiers;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public List<Interface> getAbilities() {
         return abilities;

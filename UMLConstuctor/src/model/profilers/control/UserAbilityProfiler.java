@@ -1,6 +1,7 @@
 package model.profilers.control;
 
 import model.classes.Class;
+import model.members.Method;
 import model.profilers.Profiler;
 
 /**
@@ -8,9 +9,19 @@ import model.profilers.Profiler;
  */
 public class UserAbilityProfiler extends Profiler {
 
+    private Method ability;
+
+    public Method getAbility() {
+        return ability;
+    }
+
+    public void setAbility(Method ability) {
+        this.ability = ability;
+    }
+
     @Override
     public void change(Class clazz) {
-
+        clazz.getMembers().add(ability);
     }
 
 }

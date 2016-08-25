@@ -7,6 +7,14 @@ import model.profilers.Profiler;
  */
 public abstract class ModelProfiler extends Profiler{
 
-    public abstract String getModel();
+    private String model;
+
+    public String getModel(){
+        return model;
+    }
+
+    public void setModel(String model){
+        this.model = model;
+    }
 
 }
